@@ -34,14 +34,17 @@
 import React from 'react'
 import Navbar from './Component/Tour/Navbar'
 import Background from './Component/Tour/Background'
+import AxiosPost from './Component/AxiosUse/AxiosPost'
+import AxiosGet from './Component/AxiosUse/AxiosGet'
 
 
 function App() {
   return (
   <>
-  <Navbar/>
-  <Background/>
-  
+  {/* <Navbar/>
+  <Background/> */}
+  <AxiosPost/>
+  {/* <AxiosGet/> */}
   </>
   )
 }
