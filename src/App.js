@@ -32,10 +32,18 @@
 // https://script.google.com/macros/s/AKfycbywayQJZEdasWduOnmcO-OfJk6tiP-VhN0vYgxy2MznBIk_JoKj8Tf7Kerf3fWmlffU9Q/exec
 
 import React from 'react'
-import Navbar from './Component/Tour/Navbar'
-import Background from './Component/Tour/Background'
-import AxiosPost from './Component/AxiosUse/AxiosPost'
-import AxiosGet from './Component/AxiosUse/AxiosGet'
+// import Navbar from './Component/Tour/Navbar'
+// import Background from './Component/Tour/Background'
+// import AxiosPost from './Component/AxiosUse/AxiosPost'
+// import AxiosGet from './Component/AxiosUse/AxiosGet'
+// import RoomDetails from './Component/AxiosUse/RoomDetails'
+// import MyForm from './Component/Classcomp/MyForm'
+// import FormApi from './Component/APIUse/FormApi'
+// import RoomView from './Component/AxiosUse/RoomView'
+// import CounterButton from './Component/Classcomp/CounterButton'
+// import StudentDetails from './Component/MaterialUiUse/StudentDetails'
+// import FunctionStudDetails from './Component/MaterialUiUse/FunctionStudDetails'
+import PracticeMaterialUi from './Component/MaterialUiUse/PracticeMaterialUi'
 
 
 function App() {
@@ -43,8 +51,16 @@ function App() {
   <>
   {/* <Navbar/>
   <Background/> */}
-  <AxiosPost/>
+  {/* <AxiosPost/> */}
   {/* <AxiosGet/> */}
+  {/* <RoomDetails/> */}
+  {/* <MyForm/> */}
+  {/* <FormApi/>                                                         */}
+  {/* <RoomView/> */}
+  {/* <CounterButton/> */}
+  {/* <StudentDetails/> */}
+  {/* <FunctionStudDetails/> */}
+  <PracticeMaterialUi/>
   </>
   )
 }
